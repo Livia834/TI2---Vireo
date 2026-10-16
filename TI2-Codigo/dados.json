@@ -1,0 +1,54 @@
+[
+  {
+    "id_material": 1,
+    "titulo_nome": "O Poder do Hábito",
+    "autor": "Charles Duhigg",
+    "descricao": "Em O Poder do Hábito, Charles Duhigg investiga por que os hábitos existem e como podem ser transformados. Com histórias envolventes e descobertas científicas, o autor mostra como pequenas mudanças de rotina podem gerar resultados profundos na vida pessoal, nos estudos e nas organizações.",
+    "estado_conservacao": "Excelente",
+    "tipo_disponibilidade": "Doação",
+    "ano_publicacao": 2012,
+    "serie_ano_escolar": "Ensino Médio / Geral",
+    "idioma": "Português",
+    "categoria": "PRODUTIVIDADE",
+    "url_foto": "../poder-do-habito.jpg"
+  },
+  {
+    "id_material": 2,
+    "titulo_nome": "Dom Casmurro",
+    "autor": "Machado de Assis",
+    "descricao": "Clássico da literatura brasileira focado na história de Bentinho e Capitu. Edição em ótimo estado de conservação para estudos escolares.",
+    "estado_conservacao": "Bom",
+    "tipo_disponibilidade": "Doação",
+    "ano_publicacao": 1899,
+    "serie_ano_escolar": "3º Ano - Ensino Médio",
+    "idioma": "Português",
+    "categoria": "LITERATURA",
+    "url_foto": "../dom-casmurro.jpg"
+  },
+  {
+    "id_material": 3,
+    "titulo_nome": "Memórias Póstumas de Brás Cubas",
+    "autor": "Machado de Assis",
+    "descricao": "Obra-prima do Realismo brasileiro narrada por um defunto autor. Exemplar conservado e sem anotações.",
+    "estado_conservacao": "Novo",
+    "tipo_disponibilidade": "Troca",
+    "ano_publicacao": 1881,
+    "serie_ano_escolar": "2º Ano - Ensino Médio",
+    "idioma": "Português",
+    "categoria": "LITERATURA",
+    "url_foto": "../bras-cubas.jpg"
+  },
+  {
+    "id_material": 4,
+    "titulo_nome": "Vidas Secas",
+    "autor": "Graciliano Ramos",
+    "descricao": "Retrata a vida dura de uma família de retirantes no sertão nordestino. Perfeito para leituras de vestibulares.",
+    "estado_conservacao": "Bom",
+    "tipo_disponibilidade": "Aluguel",
+    "ano_publicacao": 1938,
+    "serie_ano_escolar": "1º Ano - Ensino Médio",
+    "idioma": "Português",
+    "categoria": "LITERATURA",
+    "url_foto": "../vidas-secas.jpg"
+  }
+]

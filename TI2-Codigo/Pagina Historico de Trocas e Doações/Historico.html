@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vireo - Histórico de Atividades</title>
+    <link rel="stylesheet" href="Historico.css">
+</head>
+<body>
+    <div class="background">
+        <!-- SECÇÃO DO CABEÇALHO --->
+        <header>
+            <div class="menu">
+                <nav>
+                    <div class="logo">
+                        <img src="../Pagina Biblioteca/left-brand.png" alt="Logo Vireo"/>
+                    </div>
+                    <ul class="ul">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="../Pagina Biblioteca/Biblioteca.html">biblioteca</a></li>
+                        <li><a href="#materiais">materias/uniformes escolares</a></li>
+                        <li><a href="#suporte">suporte</a></li>
+                        <li><a href="#sobre">sobre nós</a></li>
+                    </ul>
+                    <div class="bloco1">
+                        <div class="notificacao">
+                            <img src="../Pagina Biblioteca/notification-trigger.png" alt="Notificações">
+                        </div>
+                        <div class="perfil">
+                            <div class="texto-usuario">
+                              <h3><strong>Lucas Silva</strong></h3>
+                              <h4>RA: 202419420</h4>
+                            </div>
+                            <div class="foto-usuario">
+                                <img src="../Pagina Biblioteca/avatar-trigger.png" alt="Foto de Perfil">
+                            </div>
+                        </div>
+                    </div>    
+                </nav>
+            </div>
+        </header>
+
+        <!-- CONTEÚDO PRINCIPAL DO HISTÓRICO -->
+        <main class="secao-historico">
+            <div class="cabecalho-pagina">
+                <h2>Meu Histórico na Plataforma</h2>
+                <p>Gerencie suas solicitações de reserva, doações cadastradas e trocas</p>
+            </div>
+
+            <div class="abas-historico">
+                <button class="btn-aba ativa" data-categoria="reservas">Minhas Reservas</button>
+                <button class="btn-aba" data-categoria="doacoes">Minhas Doações</button>
+                <button class="btn-aba" data-categoria="trocas">Minhas Trocas</button>
+            </div>
+
+            <div id="conteudo-historico" class="conteudo-historico"></div>
+        </main>
+
+        <!-- SECÇÃO DO RODAPÉ --->
+        <footer class="rodape-vireo">
+            <div class="container-rodape">
+                <div class="rodape-superior">
+                    <div class="logo-rodape">
+                        <img src="../Pagina Biblioteca/brand.png" alt="Vireo">
+                    </div>
+                    <div class="contatos-rodape">
+                        <div class="item-contato">
+                            <img src="../Pagina Biblioteca/mail.png" alt="E-mail" class="icone-rodape">
+                            <span>suporte@vireo.edu.br</span>
+                        </div>
+                        <div class="item-contato">
+                            <img src="../Pagina Biblioteca/phone.png" alt="Telefone" class="icone-rodape">
+                            <span>(11) 4003-1234</span>
+                        </div>
+                        <div class="item-contato">
+                            <img src="../Pagina Biblioteca/clock.png" alt="Horário" class="icone-rodape">
+                            <span>Seg a Sex, 8h às 18h</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="divisor-rodape">
+
+                <div class="rodape-inferior">
+                    <p class="endereco-rodape">Biblioteca Central • Rua Escola, 120 • São Paulo, SP</p>
+                    <p class="direitos-rodape">&copy; 2026 Vireo. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Puxa do JavaScript -->
+    <script src="Historico.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="30">
+        <title>Vireo - Biblioteca</title>
+        <link rel="stylesheet" href="Biblioteca.css">
+    </head>
+    <body>
+        <div class="background">
+            <!-- SECÇÃO DO CABEÇALHO--->
+            <header>
+                <div class="menu">
+                    <nav>
+                        <div class="logo">
+                            <img src="left-brand.png"/>
+                        </div>
+                        <ul class="ul">
+                            <li><a href="#home">home</a></li>
+                            <li><a href="Biblioteca.html">biblioteca</a></li>
+                            <li><a href="#materiais">materias/uniformes escolares</a></li>
+                            <li><a href="#suporte">suporte</a></li>
+                            <li><a href="#sobre">sobre nós</a></li>
+                        </ul>
+                        <div class="bloco1">
+                            <div class="notificacao">
+                                <img src="notification-trigger.png">
+                            </div>
+                            <div class="perfil">
+                                <div class="texto-usuario">
+                                  <h3><strong>Lucas Silva</strong></h3>
+                                  <h4>RA: 202419420</h4>
+                                </div>
+                                <div class="foto-usuario">
+                                    <img src="avatar-trigger.png">
+                                </div>
+                            </div>
+                        </div>    
+                    </nav>
+                </div>
+            </header> 
+
+            <!-- SECÇÃO DA GALERIA DE LIVROS--->
+            <main class="secao-biblioteca">
+                <div class="cabecalho-pagina">
+                    <h2>Catálogo de Livros e Materiais</h2>
+                    <p>Explore os itens disponíveis para doação, troca ou aluguel</p>
+                </div>
+
+                <!-- Quadros inseridos no JavaScript -->
+                <div id="grid-biblioteca" class="grid-biblioteca"></div>
+            </main>
+
+             <!-- SECÇÃO DO RODAPÉ--->
+            <footer class="rodape-vireo">
+    <div class="container-rodape">
+        <div class="rodape-superior">
+            <div class="logo-rodape">
+                <img src="brand.png" alt="Vireo">
+            </div>
+            <div class="contatos-rodape">
+                <div class="item-contato">
+                    <img src="mail.png" alt="E-mail" class="icone-rodape">
+                    <span>suporte@vireo.edu.br</span>
+                </div>
+                <div class="item-contato">
+                    <img src="phone.png" alt="Telefone" class="icone-rodape">
+                    <span>(11) 4003-1234</span>
+                </div>
+                <div class="item-contato">
+                    <img src="clock.png" alt="Horário" class="icone-rodape">
+                    <span>Seg a Sex, 8h às 18h</span>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divisor-rodape">
+
+        <div class="rodape-inferior">
+            <p class="endereco-rodape">Biblioteca Central • Rua Escola, 120 • São Paulo, SP</p>
+            <p class="direitos-rodape">&copy; 2026 Vireo. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+        <!-- Puxa o JS -->
+        <script src="Biblioteca.js"></script>
+    </body>
+</html>
